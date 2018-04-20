@@ -26,7 +26,7 @@ int main() {
 > Vestibulum vitae orci quis ante viverra ultricies ut eget turpis. Sed eu
   lectus dapibus, eleifend nulla varius, lobortis turpis. In ac hendrerit nisl,
   sit amet laoreet nibh.
-``` js hl_lines="8"
+```js hl_lines="8 1 2"
 var _extends = function(target) {
 for (var i = 1; i < arguments.length; i++) {
     var source = arguments[i];
