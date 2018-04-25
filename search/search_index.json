@@ -326,34 +326,29 @@
             "title": "Section 1.1"
         },
         {
-            "location": "/",
-            "text": "Welcome to MkDocs\n\u00b6\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\n1\n2\n3\n{\n\n    \n\"hello\"\n:\n \n\"cool\"\n\n\n}\n\n\n\n\n\n\n\n1\n2\ndef\n \n__init\n(\nself\n):\n\n    \nreturn\n \nhello\n.\nasd\n\n\n\n\n\n\n\n\n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit\n\n\n Nulla lobortis egestas semper\n\n\n Curabitur elit nibh, euismod et ullamcorper at, iaculis feugiat est\n\n\n Vestibulum convallis sit amet nisi a tincidunt\n\n\n In hac habitasse platea dictumst\n\n\n In scelerisque nibh non dolor mollis congue sed et metus\n\n\n Sed egestas felis quis elit dapibus, ac aliquet turpis mattis\n\n\n Praesent sed risus massa\n\n\n\n\n\n\n Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque\n\n\n\n\n Nulla vel eros venenatis, imperdiet enim id, faucibus nisi\n\n\n\n\n\n\nConert this \u2192 (this)\n\n\n\n\n\n\nHello My name is\n\n\n\n\n\n\nInline text highlight\n\u00b6\n\n\nText can be \ndeleted\n and replacement text \nadded\n. This can also be\ncombined into \none\na single\n operation. \nHighlighting\n is also\npossible \nand comments can be added inline\n.\n\n\nDetails\n\u00b6\n\n\n[Details][11] adds collapsible [Admonition-style blocks][12] which can contain\narbitrary content using the HTML5 \ndetails\n and \nsummary\n tags. Additionally,\nall Admonition qualifiers can be used, e.g. \nnote\n, \nquestion\n, \nwarning\n etc.:\n\n\nsjdhsahdsd asdasd\nYes.\nsjdhsahdsd asdasd\nYes.\nEmoji\n\u00b6\n\n\n[Emoji][13] adds the -load of emojis that we use in\nour daily lives. See the [EmojiOne demo][14] for a list of all available\nemojis. Happy scrolling \n\n\nSmartSymbols\n\u00b6\n\n\n[SmartSymbols][21] converts markup for special characters into their\ncorresponding symbols, e.g. arrows (\u2190, \u2192, \u2194), trademark and copyright\nsymbols (\u00a9, \u2122, \u00ae) and fractions (\u00bd, \u00bc, ...).",
-            "title": "Another"
+            "location": "/history/",
+            "text": "History\n\u00b6\n\n\n4/24/2018 (Tue)\n\u00b6\n\n\nMySQL Docker \nMySQL-Docker\n\u00b6\n\n\n\n\nCreate and run the docker container\n\n1\ndocker run --name some-mysql -e \nMYSQL_ROOT_PASSWORD\n=\nmy-secret-pw -d mysql:tag\n\n\n\n\n\nConnect to container from terminal\n\n1\ndocker run -it --link some-mysql:mysql --rm mysql sh -c \n'exec mysql -h\"$MYSQL_PORT_3306_TCP_ADDR\" -P\"$MYSQL_PORT_3306_TCP_PORT\" -uroot -p\"$MYSQL_ENV_MYSQL_ROOT_PASSWORD\"'\n\n\n\n\n\n\n\n\nCreate Django App from docker-compose \nDjango-Docker\n\u00b6",
+            "title": "History"
         },
         {
-            "location": "/#welcome-to-mkdocs",
-            "text": "For full documentation visit  mkdocs.org .  1\n2\n3 { \n     \"hello\" :   \"cool\"  }    1\n2 def   __init ( self ): \n     return   hello . asd      Lorem ipsum dolor sit amet, consectetur adipiscing elit   Nulla lobortis egestas semper   Curabitur elit nibh, euismod et ullamcorper at, iaculis feugiat est   Vestibulum convallis sit amet nisi a tincidunt   In hac habitasse platea dictumst   In scelerisque nibh non dolor mollis congue sed et metus   Sed egestas felis quis elit dapibus, ac aliquet turpis mattis   Praesent sed risus massa     Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque    Nulla vel eros venenatis, imperdiet enim id, faucibus nisi    Conert this \u2192 (this)    Hello My name is",
-            "title": "Welcome to MkDocs"
+            "location": "/history/#history",
+            "text": "",
+            "title": "History"
         },
         {
-            "location": "/#inline-text-highlight",
-            "text": "Text can be  deleted  and replacement text  added . This can also be\ncombined into  one a single  operation.  Highlighting  is also\npossible  and comments can be added inline .",
-            "title": "Inline text highlight"
+            "location": "/history/#4242018-tue",
+            "text": "",
+            "title": "4/24/2018 (Tue)"
         },
         {
-            "location": "/#details",
-            "text": "[Details][11] adds collapsible [Admonition-style blocks][12] which can contain\narbitrary content using the HTML5  details  and  summary  tags. Additionally,\nall Admonition qualifiers can be used, e.g.  note ,  question ,  warning  etc.:  sjdhsahdsd asdasd Yes. sjdhsahdsd asdasd Yes.",
-            "title": "Details"
+            "location": "/history/#mysql-docker-mysql-docker",
+            "text": "Create and run the docker container 1 docker run --name some-mysql -e  MYSQL_ROOT_PASSWORD = my-secret-pw -d mysql:tag   Connect to container from terminal 1 docker run -it --link some-mysql:mysql --rm mysql sh -c  'exec mysql -h\"$MYSQL_PORT_3306_TCP_ADDR\" -P\"$MYSQL_PORT_3306_TCP_PORT\" -uroot -p\"$MYSQL_ENV_MYSQL_ROOT_PASSWORD\"'",
+            "title": "MySQL Docker MySQL-Docker"
         },
         {
-            "location": "/#emoji",
-            "text": "[Emoji][13] adds the -load of emojis that we use in\nour daily lives. See the [EmojiOne demo][14] for a list of all available\nemojis. Happy scrolling",
-            "title": "Emoji"
-        },
-        {
-            "location": "/#smartsymbols",
-            "text": "[SmartSymbols][21] converts markup for special characters into their\ncorresponding symbols, e.g. arrows (\u2190, \u2192, \u2194), trademark and copyright\nsymbols (\u00a9, \u2122, \u00ae) and fractions (\u00bd, \u00bc, ...).",
-            "title": "SmartSymbols"
+            "location": "/history/#create-django-app-from-docker-compose-django-docker",
+            "text": "",
+            "title": "Create Django App from docker-compose Django-Docker"
         }
     ]
 }
