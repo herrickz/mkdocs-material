@@ -23,7 +23,8 @@ pages:
       - TwoTwo: tree.md
       - Three:
         - Three: tree.md
-  - Another: index.md
+  - History: 
+    - Home: history.md
 
 markdown_extensions:
   - admonition
