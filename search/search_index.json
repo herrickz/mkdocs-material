@@ -328,7 +328,7 @@
         {
             "location": "/history/",
             "text": "History\n\u00b6\n\n\n4/24/2018 (Tue)\n\u00b6\n\n\nMySQL Docker \nMySQL-Docker\n\u00b6\n\n\n\n\nCreate and run the docker container\n\n1\ndocker run --name some-mysql -e \nMYSQL_ROOT_PASSWORD\n=\nmy-secret-pw -d mysql:tag\n\n\n\n\n\nConnect to container from terminal\n\n1\ndocker run -it --link some-mysql:mysql --rm mysql sh -c \n'exec mysql -h\"$MYSQL_PORT_3306_TCP_ADDR\" -P\"$MYSQL_PORT_3306_TCP_PORT\" -uroot -p\"$MYSQL_ENV_MYSQL_ROOT_PASSWORD\"'\n\n\n\n\n\n\n\n\nCreate Django App from docker-compose \nDjango-Docker\n\u00b6",
-            "title": "History"
+            "title": "Home"
         },
         {
             "location": "/history/#history",
